@@ -69,10 +69,10 @@ temp_entry = tkinter.Entry(data_info)
 temp_entry.grid(row=8,column=0)
 
 
-weight_label= tkinter.Label(data_info,text="משקל")
-weight_label.grid(row=8,column=1)
-weight_entry = tkinter.Entry(data_info)
-weight_entry.grid(row=8,column=0)
+humidity_label= tkinter.Label(data_info,text="לחות")
+humidity_label.grid(row=8,column=1)
+humidity_entry = tkinter.Entry(data_info)
+humidity_entry.grid(row=8,column=0)
 
 
 window.mainloop()
