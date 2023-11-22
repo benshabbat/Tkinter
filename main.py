@@ -39,4 +39,10 @@ mana_color_entry = tkinter.Entry(data_info)
 mana_color_entry.grid(row=4 ,column=0)
 
 
+number_risusim_label= tkinter.Label(data_info,text="מספר ריסוסים")
+number_risusim_label.grid(row=5,column=1)
+number_risusim_combobox =  ttk.Combobox(data_info,values=[1,2,3,4,5,6,7])
+number_risusim_combobox.grid(row=5 ,column=0)
+
+
 window.mainloop()
