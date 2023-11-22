@@ -5,22 +5,26 @@ window = tkinter.Tk()
 window.title("Data Enty Form")
 frame=tkinter.Frame(window)
 frame.pack()
-user_info= tkinter.LabelFrame(frame,text="User Information")
-user_info.grid(row=0,column=0)
+data_info= tkinter.LabelFrame(frame,text="Information")
+data_info.grid(row=0,column=0)
 
 
-user_first_name= tkinter.Label(user_info,text="First Name")
-user_first_name.grid(row=0,column=0)
-user_first_name_entry = tkinter.Entry(user_info)
-user_first_name_entry.grid(row=0,column=1)
+date_label= tkinter.Label(data_info,text="תאריך")
+date_label.grid(row=0,column=1)
+date_entry = tkinter.Entry(data_info)
+date_entry.grid(row=0,column=0)
 
-user_last_name= tkinter.Label(user_info,text="Last Name")
-user_last_name.grid(row=1,column=0)
-user_last_name_entry = tkinter.Entry(user_info)
-user_last_name_entry.grid(row=1 ,column=1)
 
-check=tkinter.Label(user_info,text="Check")
-check.grid(row=2,column=0)
-check_combobox = ttk.Combobox(user_info,values=[1,2,3,4,5,6])
-check_combobox.grid(row=2,column=1)
+code_hc_label=tkinter.Label(data_info,text="קוד")
+code_hc_label.grid(row=1,column=1)
+code_hc_combobox = ttk.Combobox(data_info,values=["אדום","צהוב"])
+code_hc_combobox.grid(row=1,column=0)
+
+
+mana_label= tkinter.Label(data_info,text="מנת")
+mana_label.grid(row=2,column=1)
+mana_entry = tkinter.Entry(data_info)
+mana_entry.grid(row=2 ,column=0)
+
+
 window.mainloop()
