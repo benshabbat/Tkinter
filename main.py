@@ -26,10 +26,17 @@ mana_label.grid(row=2,column=1)
 mana_entry = tkinter.Entry(data_info)
 mana_entry.grid(row=2 ,column=0)
 
+
 number_mana_label= tkinter.Label(data_info,text="מספר מנה")
 number_mana_label.grid(row=3,column=1)
 number_mana_entry = tkinter.Entry(data_info)
 number_mana_entry.grid(row=3 ,column=0)
+
+
+mana_color_label= tkinter.Label(data_info,text="מנת צבע")
+mana_color_label.grid(row=4,column=1)
+mana_color_entry = tkinter.Entry(data_info)
+mana_color_entry.grid(row=4 ,column=0)
 
 
 window.mainloop()
