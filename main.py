@@ -51,4 +51,10 @@ viscosity_entry = tkinter.Entry(data_info)
 viscosity_entry.grid(row=6,column=0)
 
 
+psi_label= tkinter.Label(data_info,text="PSI")
+psi_label.grid(row=7,column=1)
+psi_entry = tkinter.Entry(data_info)
+psi_entry.grid(row=7,column=0)
+
+
 window.mainloop()
