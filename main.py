@@ -64,15 +64,22 @@ weight_entry.grid(row=8,column=0)
 
 
 temp_label= tkinter.Label(data_info,text="טמפרטורה")
-temp_label.grid(row=8,column=1)
+temp_label.grid(row=9,column=1)
 temp_entry = tkinter.Entry(data_info)
-temp_entry.grid(row=8,column=0)
+temp_entry.grid(row=9,column=0)
 
 
 humidity_label= tkinter.Label(data_info,text="לחות")
-humidity_label.grid(row=8,column=1)
+humidity_label.grid(row=10,column=1)
 humidity_entry = tkinter.Entry(data_info)
-humidity_entry.grid(row=8,column=0)
+humidity_entry.grid(row=10,column=0)
 
+
+
+desc_label= tkinter.Label(data_info,text="הערות")
+desc_label.grid(row=11,column=1)
+desc_entry = tkinter.Entry(data_info)
+desc_entry.grid(row=11,column=0)
+                          
 
 window.mainloop()
