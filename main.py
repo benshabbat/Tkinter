@@ -34,33 +34,33 @@ number_mana_entry.grid(row=3 ,column=0,padx=5,pady=5)
 
 
 mana_color_label= tkinter.Label(data_info,text="מנת צבע")
-mana_color_label.grid(row=4,column=1)
+mana_color_label.grid(row=4,column=1,padx=5,pady=5)
 mana_color_entry = tkinter.Entry(data_info)
-mana_color_entry.grid(row=4 ,column=0)
+mana_color_entry.grid(row=4 ,column=0,padx=5,pady=5)
 
 
 number_risusim_label= tkinter.Label(data_info,text="מספר ריסוסים")
-number_risusim_label.grid(row=5,column=1)
+number_risusim_label.grid(row=5,column=1,padx=5,pady=5)
 number_risusim_combobox =  ttk.Combobox(data_info,values=[1,2,3,4,5,6,7])
-number_risusim_combobox.grid(row=5 ,column=0)
+number_risusim_combobox.grid(row=5 ,column=0,padx=5,pady=5)
 
 
 viscosity_label= tkinter.Label(data_info,text="צמיגות")
-viscosity_label.grid(row=6,column=1)
+viscosity_label.grid(row=6,column=1,padx=5,pady=5)
 viscosity_entry = tkinter.Entry(data_info)
-viscosity_entry.grid(row=6,column=0)
+viscosity_entry.grid(row=6,column=0,padx=5,pady=5)
 
 
 psi_label= tkinter.Label(data_info,text="PSI")
-psi_label.grid(row=7,column=1)
+psi_label.grid(row=7,column=1,padx=5,pady=5)
 psi_entry = tkinter.Entry(data_info)
-psi_entry.grid(row=7,column=0)
+psi_entry.grid(row=7,column=0,padx=5,pady=5)
 
 
 weight_label= tkinter.Label(data_info,text="משקל")
-weight_label.grid(row=8,column=1)
+weight_label.grid(row=8,column=1,padx=5,pady=5)
 weight_entry = tkinter.Entry(data_info)
-weight_entry.grid(row=8,column=0)
+weight_entry.grid(row=8,column=0,padx=5,pady=5)
 
 
 temp_label= tkinter.Label(data_info,text="טמפרטורה")
@@ -81,5 +81,8 @@ desc_label.grid(row=11,column=1)
 desc_entry = tkinter.Entry(data_info)
 desc_entry.grid(row=11,column=0)
                           
+for widget in data_info.winfo_children():
+    widget.grid_configure(padx=5,pady=5)
+
 
 window.mainloop()
