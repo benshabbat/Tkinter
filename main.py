@@ -56,6 +56,11 @@ psi_label.grid(row=7,column=1)
 psi_entry = tkinter.Entry(data_info)
 psi_entry.grid(row=7,column=0)
 
+mida_label= tkinter.Label(data_info,text="מידה")
+mida_label.grid(row=7,column=3)
+mida_entry = tkinter.Entry(data_info)
+mida_entry.grid(row=7,column=2)
+
 
 weight_label= tkinter.Label(data_info,text="משקל")
 weight_label.grid(row=8,column=1)
