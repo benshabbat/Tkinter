@@ -75,9 +75,9 @@ temp_entry.grid(row=9,column=0)
 
 
 humidity_label= tkinter.Label(data_info,text="לחות")
-humidity_label.grid(row=10,column=1)
+humidity_label.grid(row=9,column=3)
 humidity_entry = tkinter.Entry(data_info)
-humidity_entry.grid(row=10,column=0)
+humidity_entry.grid(row=9,column=2)
 
 
 
