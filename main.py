@@ -44,10 +44,10 @@ viscosity_entry = tkinter.Entry(data_info).grid(row=6,column=0)
 psi_label= tkinter.Label(data_info,text="PSI").grid(row=7,column=1)
 psi_entry = tkinter.Entry(data_info).grid(row=7,column=0)
 
-mida_label= tkinter.Label(data_info,text="מידה")
-mida_label.grid(row=7,column=3)
-mida_entry = tkinter.Entry(data_info)
-mida_entry.grid(row=7,column=2)
+
+mida_label= tkinter.Label(data_info,text="מידה").grid(row=7,column=3)
+mida_entry = tkinter.Entry(data_info).grid(row=7,column=2)
+
 
 
 weight_label= tkinter.Label(data_info,text="משקל")
