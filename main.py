@@ -12,10 +12,8 @@ date_label= tkinter.Label(data_info,text="תאריך").grid(row=0,column=1)
 date_entry = tkinter.Entry(data_info).grid(row=0,column=0)
 
 
-code_hc_label=tkinter.Label(data_info,text="קוד")
-code_hc_label.grid(row=1,column=1 )
-code_hc_combobox = ttk.Combobox(data_info,values=["אדום","צהוב"])
-code_hc_combobox.grid(row=1,column=0)
+code_hc_label=tkinter.Label(data_info,text="קוד").grid(row=1,column=1)
+code_hc_combobox = ttk.Combobox(data_info,values=["אדום","צהוב"]).grid(row=1,column=0)
 
 
 mana_label= tkinter.Label(data_info,text="מנת")
