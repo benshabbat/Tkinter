@@ -16,10 +16,9 @@ code_hc_label=tkinter.Label(data_info,text="קוד").grid(row=1,column=1)
 code_hc_combobox = ttk.Combobox(data_info,values=["אדום","צהוב"]).grid(row=1,column=0)
 
 
-mana_label= tkinter.Label(data_info,text="מנת")
-mana_label.grid(row=2,column=1)
-mana_entry = tkinter.Entry(data_info)
-mana_entry.grid(row=2 ,column=0)
+mana_label= tkinter.Label(data_info,text="מנת").grid(row=2,column=1)
+mana_entry = tkinter.Entry(data_info).grid(row=2 ,column=0)
+
 
 
 number_mana_label= tkinter.Label(data_info,text="מספר מנה")
