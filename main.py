@@ -36,10 +36,9 @@ number_risusim_combobox =  ttk.Combobox(data_info,values=[1,2,3,4,5,6,7]).grid(r
 
 
 
-viscosity_label= tkinter.Label(data_info,text="צמיגות")
-viscosity_label.grid(row=6,column=1)
-viscosity_entry = tkinter.Entry(data_info)
-viscosity_entry.grid(row=6,column=0)
+viscosity_label= tkinter.Label(data_info,text="צמיגות").grid(row=6,column=1)
+viscosity_entry = tkinter.Entry(data_info).grid(row=6,column=0)
+
 
 
 psi_label= tkinter.Label(data_info,text="PSI")
