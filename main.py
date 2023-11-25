@@ -60,10 +60,9 @@ temp_entry = tkinter.Entry(data_info).grid(row=9,column=0)
 
 
 
-humidity_label= tkinter.Label(data_info,text="לחות")
-humidity_label.grid(row=9,column=3)
-humidity_entry = tkinter.Entry(data_info)
-humidity_entry.grid(row=9,column=2)
+humidity_label= tkinter.Label(data_info,text="לחות").grid(row=9,column=3)
+humidity_entry = tkinter.Entry(data_info).grid(row=9,column=2)
+
 
 
 
