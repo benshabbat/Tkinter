@@ -5,8 +5,7 @@ window = tkinter.Tk()
 window.title("Data Enty Form")
 frame=tkinter.Frame(window)
 frame.pack()
-data_info= tkinter.LabelFrame(frame,text="Information")
-data_info.grid(row=0,column=0 ,padx=20,pady=20)
+data_info= tkinter.LabelFrame(frame,text="Information").grid(row=0,column=0 ,padx=20,pady=20)
 
 
 date_label= tkinter.Label(data_info,text="תאריך").grid(row=0,column=1)
