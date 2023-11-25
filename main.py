@@ -26,10 +26,9 @@ number_mana_entry = tkinter.Entry(data_info).grid(row=3 ,column=0)
 
 
 
-mana_color_label= tkinter.Label(data_info,text="מנת צבע")
-mana_color_label.grid(row=4,column=1)
-mana_color_entry = tkinter.Entry(data_info)
-mana_color_entry.grid(row=4 ,column=0)
+mana_color_label= tkinter.Label(data_info,text="מנת צבע").grid(row=4,column=1)
+mana_color_entry = tkinter.Entry(data_info).grid(row=4 ,column=0)
+
 
 
 number_risusim_label= tkinter.Label(data_info,text="מספר ריסוסים")
