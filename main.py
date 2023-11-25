@@ -55,10 +55,9 @@ weight_entry = tkinter.Entry(data_info).grid(row=8,column=0)
 
 
 
-temp_label= tkinter.Label(data_info,text="טמפרטורה")
-temp_label.grid(row=9,column=1)
-temp_entry = tkinter.Entry(data_info)
-temp_entry.grid(row=9,column=0)
+temp_label= tkinter.Label(data_info,text="טמפרטורה").grid(row=9,column=1)
+temp_entry = tkinter.Entry(data_info).grid(row=9,column=0)
+
 
 
 humidity_label= tkinter.Label(data_info,text="לחות")
