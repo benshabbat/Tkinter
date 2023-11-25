@@ -66,10 +66,9 @@ humidity_entry = tkinter.Entry(data_info).grid(row=9,column=2)
 
 
 
-desc_label= tkinter.Label(data_info,text="הערות")
-desc_label.grid(row=11,column=1)
-desc_entry = tkinter.Entry(data_info)
-desc_entry.grid(row=11,column=0)
+desc_label= tkinter.Label(data_info,text="הערות").grid(row=11,column=1)
+desc_entry = tkinter.Entry(data_info).grid(row=11,column=0)
+
                           
 for widget in data_info.winfo_children():
     widget.grid_configure(padx=5,pady=5)
