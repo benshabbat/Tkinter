@@ -9,10 +9,8 @@ data_info= tkinter.LabelFrame(frame,text="Information")
 data_info.grid(row=0,column=0 ,padx=20,pady=20)
 
 
-date_label= tkinter.Label(data_info,text="תאריך")
-date_label.grid(row=0,column=1)
-date_entry = tkinter.Entry(data_info)
-date_entry.grid(row=0,column=0)
+date_label= tkinter.Label(data_info,text="תאריך").grid(row=0,column=1)
+date_entry = tkinter.Entry(data_info).grid(row=0,column=0)
 
 
 code_hc_label=tkinter.Label(data_info,text="קוד")
