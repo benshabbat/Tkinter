@@ -4,6 +4,8 @@ from tkinter import ttk
 def enter_data():
     date = date_entry.get()
     print("date: "+date)
+    code_hc = code_hc_combobox.get()
+    print("code h/c: "+code_hc)
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
