@@ -1,6 +1,9 @@
 import tkinter
 from tkinter import ttk
 
+def enter_data():
+    print("Enter data")
+    
 window = tkinter.Tk()
 window.title("Data Enty Form")
 frame=tkinter.Frame(window)
@@ -89,6 +92,6 @@ desc_entry.grid(row=11,column=0)
 for widget in data_info.winfo_children():
     widget.grid_configure(padx=5,pady=5)
 
-button = tkinter.Button(data_info, text="ENTER").grid(row=12,column=0)
+button = tkinter.Button(data_info, text="ENTER",command=enter_data).grid(row=12,column=0)
 
 window.mainloop()
