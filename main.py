@@ -2,10 +2,12 @@ import tkinter
 from tkinter import ttk
 
 def enter_data():
-    date = date_entry.get()
-    print("date: "+date)
-    code_hc = code_hc_combobox.get()
-    print("code h/c: "+code_hc)
+    print("date: "+date_entry.get())
+    print("code h/c: "+code_hc_combobox.get())
+    print("mana: "+mana_entry.get())
+    print("code h/c: "+code_hc_combobox.get())
+    print("code h/c: "+code_hc_combobox.get())
+    print("code h/c: "+code_hc_combobox.get())
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
