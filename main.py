@@ -2,7 +2,8 @@ import tkinter
 from tkinter import ttk
 
 def enter_data():
-    print("Enter data")
+    date = date_entry.get()
+    print("date: "+date)
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
