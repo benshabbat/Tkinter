@@ -7,7 +7,7 @@ def enter_data():
     print("mana: "+mana_entry.get())
     print("mana color: "+mana_color_entry.get())
     print("number risusim: "+number_risusim_combobox.get())
-    print("code h/c: "+code_hc_combobox.get())
+    print("viscosity: "+viscosity_entry.get())
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
