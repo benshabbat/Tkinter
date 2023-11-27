@@ -6,7 +6,7 @@ def enter_data():
     print("code h/c: "+code_hc_combobox.get())
     print("mana: "+mana_entry.get())
     print("mana color: "+mana_color_entry.get())
-    print("code h/c: "+code_hc_combobox.get())
+    print("number risusim: "+number_risusim_combobox.get())
     print("code h/c: "+code_hc_combobox.get())
     
 window = tkinter.Tk()
