@@ -5,7 +5,7 @@ def enter_data():
     print("date: "+date_entry.get())
     print("code h/c: "+code_hc_combobox.get())
     print("mana: "+mana_entry.get())
-    print("code h/c: "+code_hc_combobox.get())
+    print("mana color: "+mana_color_entry.get())
     print("code h/c: "+code_hc_combobox.get())
     print("code h/c: "+code_hc_combobox.get())
     
