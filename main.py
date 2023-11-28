@@ -11,6 +11,7 @@ def enter_data():
     print("PSI: "+psi_entry.get())
     print("מידה: "+mida_entry.get())
     print("משקל: "+weight_entry.get())
+    print("טמפרטורה: "+temp_entry.get()+"C")
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
