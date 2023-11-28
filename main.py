@@ -9,7 +9,7 @@ def enter_data():
     print("number risusim: "+number_risusim_combobox.get())
     print("viscosity: "+viscosity_entry.get())
     print("PSI: "+psi_entry.get())
-    print("viscosity: "+viscosity_entry.get())
+    print("מידה: "+mida_entry.get())
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
