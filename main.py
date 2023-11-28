@@ -8,6 +8,8 @@ def enter_data():
     print("mana color: "+mana_color_entry.get())
     print("number risusim: "+number_risusim_combobox.get())
     print("viscosity: "+viscosity_entry.get())
+    print("PSI: "+psi_entry.get())
+    print("viscosity: "+viscosity_entry.get())
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
