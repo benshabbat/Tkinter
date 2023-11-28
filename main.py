@@ -10,6 +10,7 @@ def enter_data():
     print("viscosity: "+viscosity_entry.get())
     print("PSI: "+psi_entry.get())
     print("מידה: "+mida_entry.get())
+    print("משקל: "+weight_entry.get())
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
