@@ -13,6 +13,7 @@ def enter_data():
     print("משקל: "+weight_entry.get())
     print("טמפרטורה: "+temp_entry.get()+"C")
     print("לחות: "+humidity_entry.get()+"%")
+    print("הערות: "+desc_entry.get())
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
