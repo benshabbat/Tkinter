@@ -17,6 +17,10 @@ def enter_data():
     print("לחות: "+humidity_entry.get()+"%")
     print("הערות: "+desc_entry.get())
     
+                
+    filepath = "C:\Users\bensh\OneDrive\שולחן העבודה\Tkinter\main.py"
+
+    
 window = tkinter.Tk()
 window.title("Data Enty Form")
 frame=tkinter.Frame(window)
