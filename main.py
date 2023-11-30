@@ -18,7 +18,7 @@ def enter_data():
     print("הערות: "+desc_entry.get())
     
                 
-    filepath = "C:\Users\bensh\OneDrive\שולחן העבודה\Tkinter\data.xlsx"
+    filepath = r'C:\Users\bensh\OneDrive\שולחן העבודה\Tkinter\data.xlsx'
     
     if not os.path.exists(filepath):
         workbook = openpyxl.Workbook()
