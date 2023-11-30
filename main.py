@@ -18,7 +18,15 @@ def enter_data():
     print("הערות: "+desc_entry.get())
     
                 
-    filepath = "C:\Users\bensh\OneDrive\שולחן העבודה\Tkinter\main.py"
+    filepath = "C:\Users\bensh\OneDrive\שולחן העבודה\Tkinter\data.xlsx"
+    
+    if not os.path.exists(filepath):
+        workbook = openpyxl.Workbook()
+        sheet = workbook.active
+        heading = ["תאריך", "קוד", "מנת", "מספר מנה","מנת צבע"
+                           "מספר ריסוסים", "צמיגות", "PSI","מידה","משקל","טמפרטורה","לחות","הערות"]
+        sheet.append(heading)
+        workbook.save(filepath)
 
     
 window = tkinter.Tk()
