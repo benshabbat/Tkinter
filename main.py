@@ -17,7 +17,9 @@ def enter_data():
     print("לחות: "+humidity_entry.get()+"%")
     print("הערות: "+desc_entry.get())
     
-                
+    print("----------------------------------------------------------------")    
+    
+            
     filepath = r'C:\Users\bensh\OneDrive\שולחן העבודה\Tkinter\data.xlsx'
     
     if not os.path.exists(filepath):
