@@ -27,7 +27,12 @@ def enter_data():
                            "מספר ריסוסים", "צמיגות", "PSI","מידה","משקל","טמפרטורה","לחות","הערות"]
         sheet.append(heading)
         workbook.save(filepath)
-
+    workbook = openpyxl.load_workbook(filepath)
+    sheet = workbook.active
+    sheet.append([date_entry.get(), code_hc_combobox.get(), mana_entry.get(), mana_color_entry.get(), number_risusim_combobox.get(), viscosity_entry.get(),
+                          psi_entry.get(), mida_entry.get(),weight_entry.get(),temp_entry.get()+"C",humidity_entry.get()+"%",desc_entry.get()])
+    workbook.save(filepath)
+                
     
 window = tkinter.Tk()
 window.title("Data Enty Form")
