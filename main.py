@@ -20,7 +20,7 @@ def enter_data():
     print("----------------------------------------------------------------")    
     
             
-    filepath = r'C:\Users\bensh\OneDrive\שולחן העבודה\Tkinter\data.xlsx'
+    filepath = 'data.xlsx'
     
     if not os.path.exists(filepath):
         workbook = openpyxl.Workbook()
